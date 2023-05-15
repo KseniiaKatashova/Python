@@ -6,21 +6,21 @@ colorama.init(autoreset=True)
 
 def seach_item(file_path, item):
 
-    with open(file_path, 'r') as f:
-        content= f.readlines()
+     with open(file_path, 'r') as f:
+         content= f.readlines()
         
-        for line in  content:
-            if item in line:
-                return print(Fore.GREEN +f"RESULT: {line} ")
+         for line in  content:
+             if item in line:
+                 return print(Fore.GREEN +f"RESULT: {line} ")
                 
                
 
-        print(Fore.RED + f"The item '{item}' is not within the file '{f.name}'!")
+         print(Fore.RED + f"The item '{item}' is not within the file '{f.name}'!")
 
 
         
 # #Driving Code   
-seach_item('sales.txt', 'Ceylon')
+# seach_item('sales.txt', 'Ceylon')
 
 
 
