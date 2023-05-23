@@ -54,8 +54,8 @@ print(num_dev_11)
 #8. Create a list comprehension that contains even numbers
 # from 2 to 9998 (inclusive):
 
-# even_num = [ x for x in range(2, 9998) if x % 2 == 0]
-# print(even_num)
+even_num = [ x for x in range(2, 9998) if x % 2 == 0]
+print(even_num)
 
 
 #9. To write a filter that selects the consonant letters in a sentence
